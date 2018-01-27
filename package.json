@@ -1,0 +1,37 @@
+{
+  "name": "chunk-version-webpack-plugin",
+  "version": "0.0.1",
+  "description": "webpack chunk hash Json",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongchao/chunk-version-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "chunkhash",
+    "hash",
+    "version"
+  ],
+  "peerDependencies": {
+    "webpack": "^3.1.0"
+  },
+  "maintainers": [
+    {
+      "name": "gongchao",
+      "email": "gongchao@dian.io"
+    }
+  ],
+  "author": "gongchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongchao/chunk-version-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/gongchao/chunk-version-webpack-plugin#readme",
+  "dependencies": {
+    "webpack-core": "^0.6.9"
+  }
+}

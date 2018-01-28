@@ -10,6 +10,7 @@ function chunkVersionWebpackPlugin(opts) {
 
 chunkVersionWebpackPlugin.prototype.apply = function(compiler) {
   var options = this.options;
+  var outputPublicPath = compiler.options.output.publicPath;
 
   compiler.plugin('emit', function(compilation, callback) {
     const chunks = compilation.chunks;
@@ -21,6 +22,8 @@ chunkVersionWebpackPlugin.prototype.apply = function(compiler) {
       var files = chunk.files;
       
       files.forEach(function(fileName) {
+        fileName = path.join(outputPublicPath, fileName);
+
         var fileExtname = path.extname(fileName).slice(1);
 
         if (!version[chunk.name][fileExtname]) version[chunk.name][fileExtname] = [];

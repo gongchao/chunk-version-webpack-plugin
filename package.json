@@ -1,6 +1,6 @@
 {
   "name": "chunk-version-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack chunk hash Json",
   "main": "./index.js",
   "scripts": {

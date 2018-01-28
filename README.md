@@ -1,4 +1,9 @@
 # chunk-version-webpack-plugin
+
+<div>
+    <img src="./assets/logo.png" alt="chunk-version-webpack-plugin" width="240">
+</div>
+
 webpack chunk hash Json
 
 ## 使用
